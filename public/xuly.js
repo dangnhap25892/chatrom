@@ -1,4 +1,4 @@
-var socket = io("https://chatromtesst25589.herokuapp.com");
+var socket = io("https://chatrom02155611.herokuapp.com");
 
 socket.on("server-send-rooms", function(data){
   $("#dsRoom").html("");
